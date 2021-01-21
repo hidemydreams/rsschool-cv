@@ -34,3 +34,25 @@ methodologies of developing real projects.
 
 You can find some of my projects in my Github Repo,
 e.g [WebFromScratch](https://hidemydreams.github.io/WebFromScratch/)
+
+### My tech skills
+
+- HTML,CSS
+  - Bootstrap
+  - SASS
+  - BEM
+- Javascript
+  - JQuery
+- Graphic
+  - Adobe Photoshop
+  - Adobe Illustrator
+  - Figma
+- GIT
+
+### Other Skills
+
+- English (Upper Intermediate)
+- Clear communication
+- Organized
+- Teamwork
+- Patience
