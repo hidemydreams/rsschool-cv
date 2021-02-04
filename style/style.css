@@ -28,11 +28,7 @@ h4 {
 
 p {
   font-size: 1rem;
-}
-
-.title {
-  border-bottom: 1px solid black;
-  margin-bottom: 40px;
+  line-height: 1.5;
 }
 
 .title-text {
@@ -49,6 +45,16 @@ p {
 }
 .row__item {
   margin: 0 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+header img {
+  max-width: 100px;
 }
 
 .person {
@@ -89,6 +95,10 @@ p {
   color: gray;
 }
 
+.skills {
+  border-left: 1px solid black;
+  padding: 0px 10px;
+}
 .skills h4 {
   margin-bottom: 10px;
 }
@@ -102,6 +112,10 @@ p {
   margin-top: 10px;
 }
 
+.education {
+  border-left: 1px solid black;
+  padding: 0px 10px;
+}
 .education__desc {
   font-size: 1rem;
   max-width: 300px;
@@ -114,6 +128,10 @@ p {
   margin-bottom: 5px;
 }
 
+.exp {
+  border-left: 1px solid black;
+  padding: 0px 10px;
+}
 .exp__desc {
   font-size: 1rem;
   max-width: 300px;
@@ -138,6 +156,16 @@ p {
   font-size: 1rem;
   line-height: 1.3;
   max-width: 300px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding: 20px 0px;
+  color: white;
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

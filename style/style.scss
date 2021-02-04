@@ -29,14 +29,10 @@ h4 {
 
 p {
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 // Global
-
-.title {
-  border-bottom: 1px solid black;
-  margin-bottom: 40px;
-}
 
 .title-text {
   display: inline;
@@ -52,6 +48,17 @@ p {
 
   &__item {
     margin: 0 10px;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+
+  img {
+    max-width: 100px;
   }
 }
 
@@ -105,6 +112,8 @@ p {
 // Skills Section
 
 .skills {
+  border-left: 1px solid black;
+  padding: 0px 10px;
   h4 {
     margin-bottom: 10px;
   }
@@ -125,6 +134,8 @@ p {
 // Education Section
 
 .education {
+  border-left: 1px solid black;
+  padding: 0px 10px;
   &__title {
   }
 
@@ -145,6 +156,8 @@ p {
 
 // Experience Section
 .exp {
+  border-left: 1px solid black;
+  padding: 0px 10px;
   &__title {
   }
 
@@ -182,4 +195,15 @@ p {
     line-height: 1.3;
     max-width: 300px;
   }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 40px;
+  padding: 20px 0px;
+  color: white;
+  background-color: black;
 }
